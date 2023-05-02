@@ -1,4 +1,3 @@
 # Final Fantasy : Les Voyages
 
-
-test 12
+Projet d'idle afin de s'entraine sur Typsecript, Next.js en utilisant une API Nest.js
