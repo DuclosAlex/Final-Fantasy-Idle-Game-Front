@@ -1,0 +1,17 @@
+{
+    "gridannia" : [
+        { "name" : "Kan-E-Semma", "goldProduce" : 50, "timeToProduce" : 2, "cost" : 20},
+        { "name" : "Beatin", "goldProduce" : 50, "timeToProduce" : 2, "cost" : 20},
+        { "name" : "Fufulupa", "goldProduce" : 50, "timeToProduce" : 2, "cost" : 20}
+    ],
+    "limsa Lominsa" : [
+        { "name" : "Merlwylb", "goldProduce" : 50, "timeToProduce" : 2, "cost" : 20},
+        { "name" : "Jake", "goldProduce" : 50, "timeToProduce" : 2, "cost" : 20},
+        { "name" : "Velkit", "goldProduce" : 50, "timeToProduce" : 2, "cost" : 20}
+    ],
+    "ul'dah" : [
+        { "name" : "Nanamo", "goldProduce" : 50, "timeToProduce" : 2, "cost" : 20},
+        { "name" : "Rauhband", "goldProduce" : 50, "timeToProduce" : 2, "cost" : 20},
+        { "name" : "Aldin", "goldProduce" : 50, "timeToProduce" : 2, "cost" : 20}
+    ]
+}
