@@ -18,7 +18,7 @@ interface UserContextProviderProps {
     children : ReactNode;
 }
 
-export const userContext = createContext<UserContextType>({
+export const UserContext = createContext<UserContextType>({
     user: {
         id: 0,
         nickname: '',
@@ -47,8 +47,8 @@ export const UserProvider = ({ children }: UserContextProviderProps) => {
         console.log(user)
     }, [user])
     
-    return <userContext.Provider value={{user, addUser}}>
+    return <UserContext.Provider value={{user, addUser}}>
         {children}
-        </userContext.Provider>
+    </UserContext.Provider>
 };
 
