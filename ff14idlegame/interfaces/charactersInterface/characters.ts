@@ -3,8 +3,10 @@ export interface Character {
     goldProduce : number;
     timeToProduce: number;
     cost: number;
+    image : string;
+    id: number;
 }
 
 export interface CharactersList {
-    characters: Character[]
+    characters : Character[]
 }

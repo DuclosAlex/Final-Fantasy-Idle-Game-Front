@@ -10,6 +10,8 @@ module.exports = {
       'blue' : '#0F79AE',
       'gold' : 'gold',
       'white' : '#fff',
+      'green' : '#A5B152',
+      'grey' : '#7C7C7C'
     },
     extend: {
       height : {

@@ -1,0 +1,42 @@
+.progressBar {
+    width : 80%;
+    height : 40px;
+    background : grey;
+    margin : auto;    
+    display : flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-radius : 60px;
+    box-shadow: 0px 0px 20px #111;
+    overflow: hidden;
+}
+
+.bar {
+    width : 20%;
+    background : blue;
+    background: linear-gradient(
+        180deg,
+        blue 0%,
+        rgb(80, 80, 206) 32%,
+        rgb(201, 201, 253) 100%
+    );
+}
+
+
+/* test animated bar */
+/* .progressBarAnimated {
+    background-color: gray;
+    background-image: linear-gradient(to right, #007aff 0%, #007aff 100%);
+    background-size: 200% 100%;
+    animation: progressBarAnimation 3s linear;
+  }
+  
+  @keyframes progressBarAnimation {
+    from {
+      background-position: 200% 0%;
+    }
+    to {
+      background-position: 0% 0%;
+    }
+  } */

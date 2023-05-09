@@ -1,0 +1,7 @@
+{
+    "city" : [
+        { "name" : "Gridannia", "id" : 1},
+        { "name" : "Ul'dah", "id" : 2},
+        { "name" : "Limsa Lominsa", "id" : 3}
+    ]
+}
