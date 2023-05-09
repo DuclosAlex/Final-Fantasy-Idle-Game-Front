@@ -1,14 +1,13 @@
 import axios from 'axios';
 import { AxiosResponse} from 'axios';
 import { useState, useEffect } from 'react';
-import { userContext } from '@/context/userContext';
+import { UserContext } from '@/context/userContext';
 import { useContext} from 'react';
 import { useRouter } from 'next/router'
 
-export const RegisterForm:React.FC = () => {
-
+export const RegisterForm = () => {
     const router = useRouter();
-    const { user, addUser} = useContext(userContext)
+    const { user, addUser} = useContext(UserContext)
 
     const [nickname, setNickname] = useState('');
     const [email, setEmail ] = useState('');
